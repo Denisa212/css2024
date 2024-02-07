@@ -1,0 +1,33 @@
+
+*{
+    padding: 15px;
+
+}
+body{
+    width: 100%;
+
+}
+div{
+    border: solid red 15px;
+    margin: 15px auto;
+}
+div p {
+    font-family:'Times New Roman', Times, serif, serif;
+    font-style:normal;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+body > div> div> div{
+    background-color: aqua;
+}
+body > div> div{
+    background-color: blueviolet;
+}
+p+div {
+   color: red;
+}
+div div div p {
+    color: greenyellow;
+}
